@@ -1,0 +1,546 @@
+/* BUTTON TEST*/
+
+.scroll-container {
+   margin: 0;
+   padding: 0;
+   z-index: 1;
+   /* display: flex;
+    position: relative; */
+   /* padding: 5px 0 5px 15px; */
+   white-space: nowrap;
+   text-transform: uppercase;
+   overflow: hidden;
+   cursor: pointer;
+   margin-bottom: 5px;
+   margin-top: 5px;
+
+}
+
+/*PYTHON*/
+.boton {
+   text-align: center;
+   background: transparent;
+   border: solid gray 1.2px;
+   margin-right: 10px;
+   width: 100px;
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+   overflow: hidden;
+
+
+   
+}
+
+/*JAVASCRIPT*/
+.boton2 {
+   text-align: center;
+   background: transparent;
+   width: 148px;
+
+   border: solid gray 1.2px;
+   margin-right: 10px;
+   margin-left: 10px;
+
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+}
+
+/*HTML*/
+.boton3 {
+   text-align: center;
+   background: transparent;
+   width: 65px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*CSS*/
+.boton4 {
+   text-align: center;
+   background: transparent;
+   width: 50px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*REACT.JS*/
+.boton5 {
+   text-align: center;
+   background: transparent;
+   width: 113px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   
+
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*C++*/
+.boton6 {
+   text-align: center;
+   background: transparent;
+   width: 45px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*JAVA*/
+.boton7 {
+   text-align: center;
+   background: transparent;
+   width: 58px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*AWS*/
+.boton8 {
+   text-align: center;
+   background: transparent;
+   width: 55px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*FRONT-END DEVELOPMENT*/
+.boton9 {
+   text-align: center;
+   background: transparent;
+   width: 320px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*MYSQL*/
+.boton10 {
+   text-align: center;
+   background: transparent;
+   width: 82px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*WEB DEVELOPMENT*/
+.boton11 {
+   text-align: center;
+   background: transparent;
+   width: 236px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*UNITY*/
+.boton12 {
+   text-align: center;
+   background: transparent;
+   width: 70px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*FIGMA*/
+.boton13 {
+   text-align: center;
+   background: transparent;
+   width: 75px;
+
+   border: solid gray 1.2px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*PHOTOSHOP*/
+.boton14 {
+   text-align: center;
+   background: transparent;
+   width: 150px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*ILLUSTRATOR*/
+.boton15 {
+   text-align: center;
+   background: transparent;
+   width: 163px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+/*PROCREATE*/
+.boton16 {
+   text-align: center;
+   background: transparent;
+   width: 144px;
+
+   border: solid gray 1.2px;
+   margin-left: 10px;
+
+   display: inline-block;
+   font-size: 25px;
+   font-family: "neue_haas_grotesk_display65Md";
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+
+
+
+
+
+.scroll-set {
+   display: flex;
+}
+
+
+/****************************/
+/* boton hover for each buton/
+  /****************************/
+.boton:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton2:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton3:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton4:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton5:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton6:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton7:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton8:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton9:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+
+.boton10:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+.boton11:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+.boton12:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+.boton13:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+.boton14:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+.boton15:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+.boton16:hover {
+   background-color: white;
+   color: black;
+
+   transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+}
+/******************************************/
+/*  SCROLL SET Y BOTON HOVER for each buton/
+  /******************************************/
+.boton:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton2:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton3:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton4:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton5:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton6:hover .scroll-set {
+   animation: scrollBtnText 3s infinite linear;
+}
+
+.boton7:hover .scroll-set {
+   animation: scrollBtnText 3s infinite linear;
+}
+
+.boton8:hover .scroll-set {
+   animation: scrollBtnText 3s infinite linear;
+}
+
+.boton9:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton10:hover .scroll-set {
+   animation: scrollBtnText 3s infinite linear;
+}
+
+.boton11:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton12:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton13:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton14:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton15:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+.boton16:hover .scroll-set {
+   animation: scrollBtnText 8s infinite linear;
+}
+
+
+@keyframes scrollBtnText {
+   from {
+      transform: translateX(0%);
+   }
+
+   to {
+      transform: translateX(-300%);
+   }
+}

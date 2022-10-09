@@ -1,0 +1,162 @@
+
+:root {
+    --c-bg: hsl(0, 0%, 90%);
+    --c-text: hsl(0, 0%, 10%);
+    --pad: max(20px, 4vmin)
+}
+
+
+ body {
+    background-color: var(--c-bg);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .02em;
+    font-feature-settings: "palt";
+    /* -webkit-text-size-adjust: none;
+    text-size-adjust: none; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+#Page {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background-color: var(--c-bg);
+    color: #fff;
+    transition-property: background-color;
+    transition-duration: .9s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1)
+}
+
+#EnterView {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    will-change: opacity;
+    background-color: var(--c-bg);
+    color: var(--c-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5em;
+    font-size: 30px
+}
+
+#EnterView ._t1 {
+    font-weight: 400
+}
+
+#EnterView ._t2 {
+    font-weight: 200
+}
+
+#Background {
+    position: fixed;
+    z-index: 1;
+    left: var(--pad);
+    right: var(--pad);
+    top: var(--pad);
+    bottom: var(--pad);
+    /* pointer-events: none; */
+    /* overflow: hidden */
+}
+
+.mask {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* pointer-events: none */
+}
+
+.mask_top,
+.mask_bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: var(--pad);
+    background-color: var(--c-bg);
+    transition-property: background-color;
+    transition-duration: .9s;
+    transition-timing-function: cubic-bezier(0.1, 0.4, 0.2, 1);
+    opacity: .9
+}
+
+.mask_top {
+    top: 0
+}
+
+.mask_bottom {
+    bottom: 0
+}
+
+.frame {
+    position: fixed;
+    z-index: 10;
+    left: var(--pad);
+    right: var(--pad);
+    top: var(--pad);
+    bottom: var(--pad);
+    mix-blend-mode: difference;
+    pointer-events: none
+}
+
+.frame_line {
+    position: absolute;
+    background-color: #fff;
+    opacity: .5
+}
+
+.frame_line-left {
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%
+}
+
+.frame_line-right {
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%
+}
+
+.frame_line-top {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px
+}
+
+.frame_line-bottom {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px
+}
+
+.content {
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    mix-blend-mode: difference
+}
+
+.content_inner {
+    position: relative;
+    min-height: 100%
+}

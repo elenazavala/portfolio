@@ -1,0 +1,35 @@
+.about-container {
+    background-color:rgba(255, 255, 255, 0.389);
+    border: solid 1px black;
+    padding:2px;
+    height: 425px;
+    width: 230px;
+    line-height: 25px;
+    font-family: 'neue_haas_grotesk_display65Md';
+
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+
+}
+.clipboard{
+    color:white;
+    cursor: pointer;
+    font-family: 'neue_haas_grotesk_display65Md';
+
+}
+
+
+.clipboard:hover{
+    color:gray;
+}
+
+.clipboard:active .hehehe{
+    color:violet;
+    visibility: visible;
+}
+
+.hehehe{
+    visibility: hidden;
+    color: white;
+}
